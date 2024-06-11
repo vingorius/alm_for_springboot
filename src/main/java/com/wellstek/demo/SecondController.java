@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SecondController {
-    @SuppressWarnings("squid:S2245")
+    @SuppressWarnings("java:S2245")
     Random random = new Random(); // Sensitive use of Random
     byte[] bytes = new byte[20];
 
