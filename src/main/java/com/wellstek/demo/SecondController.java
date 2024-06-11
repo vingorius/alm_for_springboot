@@ -1,6 +1,5 @@
 package com.wellstek.demo;
 
-import java.security.SecureRandom;
 import java.util.Random;
 
 import org.springframework.web.bind.annotation.GetMapping;
