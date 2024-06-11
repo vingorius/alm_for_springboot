@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SecondController {
     Random random = new SecureRandom(); // Sensitive use of Random
-    byte bytes[] = new byte[20];
+    byte[] bytes = new byte[20];
 
     @GetMapping("/second")
     public String second() {
