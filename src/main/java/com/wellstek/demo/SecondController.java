@@ -16,4 +16,10 @@ public class SecondController {
         random.nextBytes(bytes); // Check if bytes is used for hashing, encryption, etc...
         return "Second Hello World!";
     }
+
+    @GetMapping("/second2")
+    public String second2() {
+        random.nextBytes(bytes); // Check if bytes is used for hashing, encryption, etc...
+        return "Second Hello World!";
+    }
 }
