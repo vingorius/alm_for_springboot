@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SecondController {
     @GetMapping("/second")
-    public String index() {
+    public String second() {
         return "Second Hello World!";
     }
 }
